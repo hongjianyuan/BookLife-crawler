@@ -1,0 +1,15 @@
+{
+    //python的路径
+    "python.pythonPath": "C:\\anaconda\\envs\\dl\\python.exe",
+    //自动填充代码
+    "python.autoComplete.extraPaths": [
+        "C:\\anaconda\\envs\\tensorflow\\Lib\\site-packages",
+        "C:\\anaconda\\envs\tensorflow\\Scripts"],
+    //代码错误提示
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider" : "autopep8",
+    "python.linting.flake8Args": [
+        "--max-line-length=248",//设置一行最长为248
+        "--extend-ignore=E741,F811,F841,F401"//忽略一些错误提示
+    ]
+}
